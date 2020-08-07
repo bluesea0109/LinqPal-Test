@@ -10,7 +10,7 @@
 - yarn install
 - yarn db:migrate
 - yarn db:seed
-- yarn start node server
+- yarn start
 
 ### admin credentials
 
