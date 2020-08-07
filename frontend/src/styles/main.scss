@@ -1,0 +1,67 @@
+@import '~antd/dist/antd.css';
+
+#root {
+  min-height: 100%;
+}
+
+.dashboard {
+  width: 400px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  &__item {
+    cursor: 'pointer';
+  }
+
+  &__item:hover {
+    color: blue;
+  }
+}
+
+.user-form {
+  max-width: 800px;
+  margin: 120px auto 0;
+  width: 100%;
+
+  &__dashboard-link {
+    float: right;
+  }
+}
+
+.login-form {
+  min-width: 400px;
+  margin: auto;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  &__login-btn {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+}
+
+.logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+
+.site-layout {
+  .site-layout-background {
+    background: #fff;
+    text-align: right;
+    padding: 0 24px;
+
+    .btn-logout {
+      cursor: pointer;
+
+      .anticon {
+        margin-right: 8px;
+      }
+    }
+  }
+}

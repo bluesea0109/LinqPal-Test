@@ -7,10 +7,10 @@
 
 ### Backend
 
-- npm install
-- ./node_modules/.bin/sequelize db:migrate
-- ./node_modules/.bin/sequelize db:seed:all
-- node server
+- yarn install
+- yarn db:migrate
+- yarn db:seed
+- yarn start node server
 
 ### admin credentials
 
